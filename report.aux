@@ -1,0 +1,97 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{germevaltask2017}
+\citation{kim2020text}
+\citation{xiao2018mcapsnet}
+\citation{wang2018attention}
+\citation{radford2019language}
+\citation{heinsen2019algorithm}
+\citation{devlin2018bert}
+\babel@aux{english}{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
+\citation{germevaltask2017}
+\citation{biesialska2020sentiment}
+\citation{kostic2020}
+\citation{schulz2017germeval}
+\citation{hovelmann2017fasttext}
+\citation{sidarenka2017potts}
+\citation{naderalvojoud2017germeval}
+\citation{lee2017ukp}
+\citation{ruppert2017lt}
+\citation{mishra2017}
+\citation{biesialska2020sentiment}
+\citation{biesialska2020sentiment}
+\citation{schulz2017germeval}
+\citation{sidarenka2017potts}
+\citation{sidarenka2017potts}
+\citation{mishra2017}
+\citation{naderalvojoud2017germeval}
+\citation{lee2017ukp}
+\citation{biesialska2020sentiment}
+\citation{sidarenka2017potts}
+\citation{hovelmann2017fasttext}
+\citation{hovelmann2017fasttext}
+\citation{sayyed2017idst}
+\citation{heinsen2019algorithm}
+\citation{heinsen2019algorithm}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}}
+\newlabel{sec:related}{{2}{2}{Related Work}{section.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Model Description}{2}{section.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Dataset}{2}{section.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Architecture of CapsNet from \cite  {heinsen2019algorithm}: (a) For each sample, the input is a tensor of transformer embeddings of shape $n \times l \times m$, where $n$ is the number of tokens, $l$ is the number of transformer layers, and $m$ is the embedding size. (b) A depth-of-layer parameter of shape $l \times m$ is element-wise added to the input tensor. (c) A linear transformation from $m$ to 64 is applied, followed by a Swish activation with constant $\beta = 1$ and layer normalization, obtaining a tensor of shape $n \times l \times 64$. (d) The tensor is reshaped as shown to obtain $\mu ^{(inp)}$, consisting of $ln$ input capsules of size $1\times 64$. The tensor $a^{(inp)} \leftarrow \qopname  \relax o{log}\frac  {x}{1-x}$ is computed from a mask $x$ of length $nl$ with ones and zeros indicating, respectively, which embeddings correspond to tokens and which correspond to any padding necessary to group samples in batches, obtaining logits that are equal to $\infty $ for tokens, $-\infty $ for padding, and values in between for any tokens and padding that get combined by mixup regularization in training. (e) Two layers of the routing algorithm are applied; the first one routes a variable number of capsules in $\mu ^{(inp)}$ to 64 capsules of shape $1\times 2$; the second one routes those capsules to five or two capsules of equal shape, each representing a classification label. For prediction, we apply a Softmax to output scores $a^{(out)}$.}}{3}{figure.1}}
+\newlabel{fig:arch}{{1}{3}{Architecture of CapsNet from \cite {heinsen2019algorithm}: (a) For each sample, the input is a tensor of transformer embeddings of shape $n \times l \times m$, where $n$ is the number of tokens, $l$ is the number of transformer layers, and $m$ is the embedding size. (b) A depth-of-layer parameter of shape $l \times m$ is element-wise added to the input tensor. (c) A linear transformation from $m$ to 64 is applied, followed by a Swish activation with constant $\beta = 1$ and layer normalization, obtaining a tensor of shape $n \times l \times 64$. (d) The tensor is reshaped as shown to obtain $\mu ^{(inp)}$, consisting of $ln$ input capsules of size $1\times 64$. The tensor $a^{(inp)} \leftarrow \log \frac {x}{1-x}$ is computed from a mask $x$ of length $nl$ with ones and zeros indicating, respectively, which embeddings correspond to tokens and which correspond to any padding necessary to group samples in batches, obtaining logits that are equal to $\infty $ for tokens, $-\infty $ for padding, and values in between for any tokens and padding that get combined by mixup regularization in training. (e) Two layers of the routing algorithm are applied; the first one routes a variable number of capsules in $\mu ^{(inp)}$ to 64 capsules of shape $1\times 2$; the second one routes those capsules to five or two capsules of equal shape, each representing a classification label. For prediction, we apply a Softmax to output scores $a^{(out)}$}{figure.1}{}}
+\citation{heinsen2019algorithm}
+\citation{kostic2020}
+\citation{Wolf2019HuggingFacesTS}
+\citation{heinsen2019algorithm}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Sentiment Distribution in GermEval 2017.}}{4}{table.1}}
+\newlabel{tab:sent}{{1}{4}{Sentiment Distribution in GermEval 2017}{table.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experiments}{4}{section.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Metrics}{4}{subsection.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Experiment Setup}{4}{subsection.5.2}}
+\citation{heinsen2019algorithm}
+\citation{germevaltask2017}
+\citation{ruppert2017lt}
+\citation{biesialska2020sentiment}
+\citation{biesialska2020sentiment}
+\citation{kostic2020}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Results}{5}{section.6}}
+\bibstyle{apalike}
+\bibdata{report}
+\bibcite{biesialska2020sentiment}{Biesialska et~al., 2020}
+\bibcite{devlin2018bert}{Devlin et~al., 2018}
+\bibcite{heinsen2019algorithm}{Heinsen, 2019}
+\bibcite{hovelmann2017fasttext}{H{\"o}velmann et~al., 2017}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces F1 micro average scores.}}{6}{table.2}}
+\newlabel{tab:sent}{{2}{6}{F1 micro average scores}{table.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{6}{section.7}}
+\bibcite{kim2020text}{Kim et~al., 2020}
+\bibcite{kostic2020}{Kostic, 2020}
+\bibcite{lee2017ukp}{Lee et~al., 2017}
+\bibcite{mishra2017}{Mishra et~al., 2017}
+\bibcite{naderalvojoud2017germeval}{Naderalvojoud et~al., 2017}
+\bibcite{radford2019language}{Radford et~al., 2019}
+\bibcite{ruppert2017lt}{Ruppert et~al., 2017}
+\bibcite{sayyed2017idst}{Sayyed et~al., 2017}
+\bibcite{schulz2017germeval}{Schulz et~al., 2017}
+\bibcite{sidarenka2017potts}{Sidarenka, 2017}
+\bibcite{wang2018attention}{Wang et~al., 2018}
+\bibcite{germevaltask2017}{Wojatzki et~al., 2017}
+\bibcite{Wolf2019HuggingFacesTS}{Wolf et~al., 2019}
+\bibcite{xiao2018mcapsnet}{Xiao et~al., 2018}

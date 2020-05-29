@@ -1,0 +1,118 @@
+\begin{thebibliography}{}
+
+\bibitem[Biesialska et~al., 2020]{biesialska2020sentiment}
+Biesialska, K., Biesialska, M., and Rybinski, H. (2020).
+\newblock Sentiment analysis with contextual embeddings and self-attention.
+\newblock {\em arXiv preprint arXiv:2003.05574}.
+
+\bibitem[Devlin et~al., 2018]{devlin2018bert}
+Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K. (2018).
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock {\em arXiv preprint arXiv:1810.04805}.
+
+\bibitem[Heinsen, 2019]{heinsen2019algorithm}
+Heinsen, F.~A. (2019).
+\newblock An algorithm for routing capsules in all domains.
+\newblock {\em arXiv preprint arXiv:1911.00792}.
+
+\bibitem[H{\"o}velmann et~al., 2017]{hovelmann2017fasttext}
+H{\"o}velmann, L., Allee, S., and Friedrich, C.~M. (2017).
+\newblock {Fasttext and gradient boosted trees at GermEval-2017 on relevance
+  classification and document-level polarity}.
+\newblock In {\em Germeval 2017: Participation at Germeval Subtask B:
+  Document-level Polarity}, pages 30--35, Berlin, Germany.
+
+\bibitem[Kim et~al., 2020]{kim2020text}
+Kim, J., Jang, S., Park, E., and Choi, S. (2020).
+\newblock Text classification using capsules.
+\newblock {\em Neurocomputing}, 376:214--221.
+
+\bibitem[Kostic, 2020]{kostic2020}
+Kostic, B. (April 2020).
+\newblock Using transformer-based language models for sentiment analysis.
+\newblock {\em Towards Data Science}.
+
+\bibitem[Lee et~al., 2017]{lee2017ukp}
+Lee, J.-U., Eger, S., Daxenberger, J., and Gurevych, I. (2017).
+\newblock {UKP TU-DA at GermEval 2017: Deep learning for aspect based sentiment
+  detection}.
+\newblock In {\em Germeval 2017: Participation at Germeval Subtask B:
+  Document-level Polarity}, pages 22--29, Berlin, Germany.
+
+\bibitem[Mishra et~al., 2017]{mishra2017}
+Mishra, P., Mujadia, V., and Lanka, S. (2017).
+\newblock {GermEval 2017 : Sequence based Models for Customer Feedback
+  Analysis}.
+\newblock In {\em Germeval 2017: Participation at Germeval Subtask B:
+  Document-level Polarity}, pages 36--42, Berlin, Germany.
+
+\bibitem[Naderalvojoud et~al., 2017]{naderalvojoud2017germeval}
+Naderalvojoud, B., Qasemizadeh, B., Kallmeyer, L., and Sezer, E.~A. (2017).
+\newblock {HU-HHU at GermEval-2017 Sub-task B: Lexicon-Based Deep Learning for
+  Contextual Sentiment Analysis}.
+\newblock In {\em Germeval 2017: Participation at Germeval Subtask B:
+  Document-level Polarity}, pages 18--21, Berlin, Germany.
+
+\bibitem[Radford et~al., 2019]{radford2019language}
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., and Sutskever, I. (2019).
+\newblock Language models are unsupervised multitask learners.
+\newblock {\em OpenAI Blog}, 1(8):9.
+
+\bibitem[Ruppert et~al., 2017]{ruppert2017lt}
+Ruppert, E., Kumar, A., and Biemann, C. (2017).
+\newblock {LT-ABSA: an extensible open-source system for document-level and
+  aspect-based sentiment analysis}.
+\newblock In {\em Germeval 2017: Participation at Germeval Subtask B:
+  Document-level Polarity}, pages 55--60, Berlin, Germany.
+
+\bibitem[Sayyed et~al., 2017]{sayyed2017idst}
+Sayyed, Z.~A., Dakota, D., and K{\"u}bler, S. (2017).
+\newblock {IDS IUCL: investigating feature selection and oversampling for
+  GermEval2017}.
+\newblock In {\em Germeval 2017: Participation at Germeval Subtask B:
+  Document-level Polarity}, pages 43--48, Berlin, Germany.
+
+\bibitem[Schulz et~al., 2017]{schulz2017germeval}
+Schulz, K., Mieskes, M., and Becker, C. (2017).
+\newblock {Germeval 2017: Participation at Germeval Subtask B: Document-level
+  Polarity}.
+\newblock In {\em Germeval 2017: Participation at Germeval Subtask B:
+  Document-level Polarity}, pages 13--17, Berlin, Germany.
+
+\bibitem[Sidarenka, 2017]{sidarenka2017potts}
+Sidarenka, U. (2017).
+\newblock {Potts at germeval-2017 task b: document-level polarity detection
+  using hand-crafted svm and deep bidirectional lstm network}.
+\newblock In {\em Germeval 2017: Participation at Germeval Subtask B:
+  Document-level Polarity}, pages 49--54, Berlin, Germany.
+
+\bibitem[Wang et~al., 2018]{wang2018attention}
+Wang, Q., Xu, C., Zhou, Y., Ruan, T., Gao, D., and He, P. (2018).
+\newblock An attention-based bi-gru-capsnet model for hypernymy detection
+  between compound entities.
+\newblock In {\em 2018 IEEE International Conference on Bioinformatics and
+  Biomedicine (BIBM)}, pages 1031--1035. IEEE.
+
+\bibitem[Wojatzki et~al., 2017]{germevaltask2017}
+Wojatzki, M., Ruppert, E., Holschneider, S., Zesch, T., and Biemann, C. (2017).
+\newblock {GermEval 2017: Shared Task on Aspect-based Sentiment in Social Media
+  Customer Feedback}.
+\newblock In {\em Proceedings of the GermEval 2017 ? Shared Task on
+  Aspect-based Sentiment in Social Media Customer Feedback}, pages 1--12,
+  Berlin, Germany.
+
+\bibitem[Wolf et~al., 2019]{Wolf2019HuggingFacesTS}
+Wolf, T., Debut, L., Sanh, V., Chaumond, J., Delangue, C., Moi, A., Cistac, P.,
+  Rault, T., Louf, R., Funtowicz, M., and Brew, J. (2019).
+\newblock Huggingface's transformers: State-of-the-art natural language
+  processing.
+\newblock {\em ArXiv}, abs/1910.03771.
+
+\bibitem[Xiao et~al., 2018]{xiao2018mcapsnet}
+Xiao, L., Zhang, H., Chen, W., Wang, Y., and Jin, Y. (2018).
+\newblock Mcapsnet: Capsule network for text with multi-task learning.
+\newblock In {\em Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 4565--4574.
+
+\end{thebibliography}
